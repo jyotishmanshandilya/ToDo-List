@@ -1,0 +1,34 @@
+
+
+:root{
+    --ff-primary:'Roboto Condensed', sans-serif;
+    --ff-secondary: 'Source Sans Pro', sans-serif;
+
+    --fs-h1:3em;
+    --fs-sub:1.5em;
+    --fs-body:1em;
+
+    --clr-dark:#21222A;
+    --clr-light:#fff;
+    --clr-accent: #61DAFB;
+}
+#title{
+    font-size: var(--fs-h1);
+    color: var(--clr-accent);
+}
+
+#date{
+    font-size: var(--fs-sub) ;
+}
+
+input, button{
+    padding: 0.5em;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+}
+
+body{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    font-family: var(--ff-primary);
+}
